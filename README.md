@@ -3,7 +3,19 @@
 A 100 kS/s mini oscilloscope with a built-in function generator, built on the STM32 Nucleo-F446RE. A 16x2 LCD shows live measurements, and a Python (PyQtGraph) app on the PC gives a full scope screen with trigger, cursors, measurements and an FFT spectrum.
 
 ## Demo
-[Demo video: waveforms, trigger, cursors and FFT](docs/demo.mp4)
+The PC scope showing the three built-in test waves (1 kHz):
+
+**Sine**
+
+![Sine wave](docs/wave_sine.png)
+
+**Triangle**
+
+![Triangle wave](docs/wave_triangle.png)
+
+**Square**
+
+![Square wave](docs/wave_square.png)
 
 ![Board setup](docs/board_setup.jpg)
 
