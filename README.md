@@ -82,15 +82,15 @@ The PC scope showing the three built-in test waves (1 kHz):
 ![Clock configuration](docs/Clock_configuration.png)
 
 ## Getting started
-1. **Firmware:** open `firmware/` in STM32CubeIDE (File > Import > Existing Projects), build, and flash to the board.
+1. **Firmware:** open `firmware/mini_scope/` in STM32CubeIDE (File > Import > Existing Projects), build, and flash to the board.
 2. **Wiring:** connect A2 to A0 for the built-in test signal, and wire the LCD as in the table above.
 3. **PC app:**
    ```
-   pip install -r pc/requirements.txt
+   pip install -r pc_setup/requirements.txt
    ```
-   Open `pc/scope_pro.py` and set `PORT` to your ST-LINK COM port (Windows: Device Manager > Ports). Close any serial terminal, then run:
+   Open `pc_setup/scope_pro.py` and set `PORT` to your ST-LINK COM port (Windows: Device Manager > Ports). Close any serial terminal, then run:
    ```
-   python pc/scope_pro.py
+   python pc_setup/scope_pro.py
    ```
 4. Press the blue USER button to cycle sine, triangle and square waves.
 
